@@ -21,3 +21,6 @@ To run this project, follow these simple steps:
 
 
 🎉 That's it! You're ready to explore My Awesome MERN Project. Have fun! 🎉
+
+
+You can also visit : https://mayank-flipkartclone.netlify.app/
