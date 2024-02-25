@@ -16,7 +16,13 @@ const ColumnText=styled(TableRow)`
         font-size:14px;
         margin-top:10px;
     }
-`
+`;
+const ProductDetailImage = styled('img')(({theme})=>({
+    width: '390px',
+    [theme.breakpoints.down('md')]:{
+      width:'250px'
+    }
+}));
 
 const StyledBadge=styled(Badge)`
     margin-right:10px;
@@ -72,7 +78,7 @@ const ProductDetail=({product})=>{
                                 </ColumnText>
                                 <ColumnText>
                                     <TableCell colSpan={2}>
-                                            <img src={adURL} style={{width:390}} alt="flipkartcoins"/> 
+                                            <ProductDetailImage src={adURL} style={{width:390}} alt="flipkartcoins"/> 
                                         </TableCell>
                                 </ColumnText>
                                 <ColumnText>
