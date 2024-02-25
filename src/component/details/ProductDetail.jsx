@@ -21,9 +21,11 @@ const ProductDetailImage = styled('img')(({theme})=>({
     width: '390px',
     [theme.breakpoints.down('md')]:{
       width:'250px'
+    },
+    [theme.breakpoints.down('sm')]:{
+      width:'240px'
     }
 }));
-
 const StyledBadge=styled(Badge)`
     margin-right:10px;
     color:#00CC00;
